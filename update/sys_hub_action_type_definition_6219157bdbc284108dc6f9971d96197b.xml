@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Host">b809157bdbc284108dc6f9971d96199e</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Host</description>
+        <ih_action>true</ih_action>
+        <internal_name>host_get</internal_name>
+        <label_cache>[{"name":"{{action.host_name}}","label":"action➛Host Name","type":"action","ref":""},{"name":"{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>063ba97bdb4684108dc6f9971d96190d</latest_snapshot>
+        <master_snapshot>0a3ba97bdb4684108dc6f9971d961952</master_snapshot>
+        <name>Search Host</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:10:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6219157bdbc284108dc6f9971d96197b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Search Host</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6219157bdbc284108dc6f9971d96197b</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=6219157bdbc284108dc6f9971d96197b"/>
+    <sys_element_mapping action="delete_multiple" query="id=6219157bdbc284108dc6f9971d96197b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>6219157bdbc284108dc6f9971d96197b</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:28:04</sys_created_on>
+        <sys_id>1edaad3bdb4684108dc6f9971d961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:28:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6219157bdbc284108dc6f9971d96197b</table>
+        <value>{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6219157bdbc284108dc6f9971d96197b^sys_idNOT IN60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Host">6219157bdbc284108dc6f9971d96197b</action>
+        <cid>e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96197a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>24d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>28d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:16</sys_created_on>
+        <sys_id>a6aa693bdb4684108dc6f9971d961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a8d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>acd9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>ce261df3dbc284108dc6f9971d961927</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e4d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>http://monitoring.bnc.nl/zabbix/api_jsonrpc.php</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e8d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a4d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e0d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>24d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["host","hostid"],
+        "selectGroups": "extend",
+        "monitored_hosts": true,
+        "with_triggers": true,
+        "search": {
+            "host": [
+                "{{action.host_name}}"
+            ]
+        }
+    },
+    "id": 1,
+    "auth": "{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}"
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>20d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a8d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>6cd9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e4d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:16</sys_created_on>
+        <sys_id>26aa693bdb4684108dc6f9971d961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=60d9ddbbdbc284108dc6f9971d96197a^sys_idNOT IN28d9ddbbdbc284108dc6f9971d961981"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">60d9ddbbdbc284108dc6f9971d96197a</model>
+        <model_id>60d9ddbbdbc284108dc6f9971d96197a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_60d9ddbbdbc284108dc6f9971d96197a</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>28d9ddbbdbc284108dc6f9971d961981</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=6219157bdbc284108dc6f9971d96197b^sys_idNOT IN5eaa6977db4684108dc6f9971d961927"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Host Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Host">6219157bdbc284108dc6f9971d96197b</model>
+        <model_id>6219157bdbc284108dc6f9971d96197b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_6219157bdbc284108dc6f9971d96197b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5eaa6977db4684108dc6f9971d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=6219157bdbc284108dc6f9971d96197b^sys_idNOT INd2daad3bdb4684108dc6f9971d961919"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responsebody</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Host">6219157bdbc284108dc6f9971d96197b</model>
+        <model_id>6219157bdbc284108dc6f9971d96197b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_6219157bdbc284108dc6f9971d96197b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:28:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2daad3bdb4684108dc6f9971d961919</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=6219157bdbc284108dc6f9971d96197b^sys_idNOT IN60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Host">6219157bdbc284108dc6f9971d96197b</action>
+        <cid>e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96197a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>24d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>28d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:16</sys_created_on>
+        <sys_id>a6aa693bdb4684108dc6f9971d961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a8d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>acd9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>ce261df3dbc284108dc6f9971d961927</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e4d9ddbbdbc284108dc6f9971d96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>http://monitoring.bnc.nl/zabbix/api_jsonrpc.php</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>60d9ddbbdbc284108dc6f9971d96197a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e8d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60d9ddbbdbc284108dc6f9971d96197a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a4d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e0d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>24d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["host","hostid"],
+        "selectGroups": "extend",
+        "monitored_hosts": true,
+        "with_triggers": true,
+        "search": {
+            "host": [
+                "{{action.host_name}}"
+            ]
+        }
+    },
+    "id": 1,
+    "auth": "{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}"
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>20d9ddbbdbc284108dc6f9971d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>a8d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>6cd9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>e4d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:16</sys_created_on>
+        <sys_id>26aa693bdb4684108dc6f9971d961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>60d9ddbbdbc284108dc6f9971d96197a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_id>60d9ddbbdbc284108dc6f9971d96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 19:13:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=60d9ddbbdbc284108dc6f9971d96197a^sys_idNOT IN28d9ddbbdbc284108dc6f9971d961981"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">60d9ddbbdbc284108dc6f9971d96197a</model>
+        <model_id>60d9ddbbdbc284108dc6f9971d96197a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_60d9ddbbdbc284108dc6f9971d96197a</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 19:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>28d9ddbbdbc284108dc6f9971d961981</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6219157bdbc284108dc6f9971d96197b^sys_idNOT IN9aaa293bdb4684108dc6f9971d9619e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host_name</element>
+        <help/>
+        <hint/>
+        <label>Host Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6219157bdbc284108dc6f9971d96197b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:27:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9aaa293bdb4684108dc6f9971d9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Host Name</sys_name>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6219157bdbc284108dc6f9971d96197b_host_name_en</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:27:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6219157bdbc284108dc6f9971d96197b^sys_idNOT IN9adaad3bdb4684108dc6f9971d96191e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>responsebody</element>
+        <help/>
+        <hint/>
+        <label>Response Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6219157bdbc284108dc6f9971d96197b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:28:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9adaad3bdb4684108dc6f9971d96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Response Body</sys_name>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6219157bdbc284108dc6f9971d96197b_responsebody_en</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:28:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=6219157bdbc284108dc6f9971d96197b^sys_idNOT IN6a3be97bdb4684108dc6f9971d961927"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Search Host">6219157bdbc284108dc6f9971d96197b</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6a3be97bdb4684108dc6f9971d961927","name":"plan"}}</plan>
+        <snapshot>063ba97bdb4684108dc6f9971d96190d</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6a3be97bdb4684108dc6f9971d961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:44</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Host">b809157bdbc284108dc6f9971d96199e</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Host</description>
+        <internal_name>search_host</internal_name>
+        <label_cache>[{"name":"{{action.host_name}}","label":"action➛Host Name","type":"action","ref":""},{"name":"{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Search Host</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Search Host">6219157bdbc284108dc6f9971d96197b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>0a3ba97bdb4684108dc6f9971d961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=0a3ba97bdb4684108dc6f9971d961952"/>
+    <sys_element_mapping action="delete_multiple" query="id=0a3ba97bdb4684108dc6f9971d961952"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>0a3ba97bdb4684108dc6f9971d961952</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:43</sys_created_on>
+        <sys_id>563ba97bdb4684108dc6f9971d96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0a3ba97bdb4684108dc6f9971d961952</table>
+        <value>{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=0a3ba97bdb4684108dc6f9971d961952^sys_idNOT IN0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Host">0a3ba97bdb4684108dc6f9971d961952</action>
+        <cid>e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0a3ba97bdb4684108dc6f9971d96195a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1a3ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1e3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>563ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>5a3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>ce261df3dbc284108dc6f9971d961927</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>923ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>http://monitoring.bnc.nl/zabbix/api_jsonrpc.php</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>963ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>d23ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>de3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>9e3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>da3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1e3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["host","hostid"],
+        "selectGroups": "extend",
+        "monitored_hosts": true,
+        "with_triggers": true,
+        "search": {
+            "host": [
+                "{{action.host_name}}"
+            ]
+        }
+    },
+    "id": 1,
+    "auth": "{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}"
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1a3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>923ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>563ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>de3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>523ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>5a3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0a3ba97bdb4684108dc6f9971d96195a^sys_idNOT INce3ba97bdb4684108dc6f9971d96196c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0a3ba97bdb4684108dc6f9971d96195a</model>
+        <model_id>0a3ba97bdb4684108dc6f9971d96195a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0a3ba97bdb4684108dc6f9971d96195a</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce3ba97bdb4684108dc6f9971d96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=0a3ba97bdb4684108dc6f9971d961952^sys_idNOT IN4a3ba97bdb4684108dc6f9971d961953"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Host Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Host">0a3ba97bdb4684108dc6f9971d961952</model>
+        <model_id>0a3ba97bdb4684108dc6f9971d961952</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0a3ba97bdb4684108dc6f9971d961952</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4a3ba97bdb4684108dc6f9971d961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=0a3ba97bdb4684108dc6f9971d961952^sys_idNOT IN963ba97bdb4684108dc6f9971d96197e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responsebody</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Host">0a3ba97bdb4684108dc6f9971d961952</model>
+        <model_id>0a3ba97bdb4684108dc6f9971d961952</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0a3ba97bdb4684108dc6f9971d961952</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>963ba97bdb4684108dc6f9971d96197e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=0a3ba97bdb4684108dc6f9971d961952^sys_idNOT IN0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Host">0a3ba97bdb4684108dc6f9971d961952</action>
+        <cid>e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0a3ba97bdb4684108dc6f9971d96195a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1a3ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1e3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>563ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>5a3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>ce261df3dbc284108dc6f9971d961927</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>923ba97bdb4684108dc6f9971d96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>http://monitoring.bnc.nl/zabbix/api_jsonrpc.php</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>963ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>d23ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0a3ba97bdb4684108dc6f9971d96195a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>de3ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0a3ba97bdb4684108dc6f9971d96195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>9e3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>da3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1e3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+    "jsonrpc": "2.0",
+    "method": "host.get",
+    "params": {
+        "output": ["host","hostid"],
+        "selectGroups": "extend",
+        "monitored_hosts": true,
+        "with_triggers": true,
+        "search": {
+            "host": [
+                "{{action.host_name}}"
+            ]
+        }
+    },
+    "id": 1,
+    "auth": "{{step[e042535f-3d7f-4dbf-b6ec-ad5ed2d17de9].sn_auth_token}}"
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>1a3ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>923ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>563ba97bdb4684108dc6f9971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>de3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>523ba97bdb4684108dc6f9971d961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>0a3ba97bdb4684108dc6f9971d96195a</id>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_id>5a3ba97bdb4684108dc6f9971d961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0a3ba97bdb4684108dc6f9971d96195a^sys_idNOT INce3ba97bdb4684108dc6f9971d96196c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0a3ba97bdb4684108dc6f9971d96195a</model>
+        <model_id>0a3ba97bdb4684108dc6f9971d96195a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0a3ba97bdb4684108dc6f9971d96195a</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ce3ba97bdb4684108dc6f9971d96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0a3ba97bdb4684108dc6f9971d961952^sys_idNOT INca3ba97bdb4684108dc6f9971d961958"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host_name</element>
+        <help/>
+        <hint/>
+        <label>Host Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0a3ba97bdb4684108dc6f9971d961952</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca3ba97bdb4684108dc6f9971d961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Host Name</sys_name>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0a3ba97bdb4684108dc6f9971d961952_host_name_en</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0a3ba97bdb4684108dc6f9971d961952^sys_idNOT IN5a3ba97bdb4684108dc6f9971d961983"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>responsebody</element>
+        <help/>
+        <hint/>
+        <label>Response Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0a3ba97bdb4684108dc6f9971d961952</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 20:29:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a3ba97bdb4684108dc6f9971d961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Response Body</sys_name>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0a3ba97bdb4684108dc6f9971d961952_responsebody_en</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 20:29:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

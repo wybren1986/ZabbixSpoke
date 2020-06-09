@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Login</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>wybren.vanbeemdelust@bnc.nl</sys_created_by>
+        <sys_created_on>2020-01-06 18:48:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac2419ffdb8284108dc6f9971d961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Zabbix Spoke" source="x_bocn_zabbix_spok">5c63dd3bdb8284108dc6f9971d9619ab</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Zabbix Spoke">5c63dd3bdb8284108dc6f9971d9619ab</sys_scope>
+        <sys_update_name>sys_hub_category_ac2419ffdb8284108dc6f9971d961934</sys_update_name>
+        <sys_updated_by>wybren.vanbeemdelust@bnc.nl</sys_updated_by>
+        <sys_updated_on>2020-01-06 18:48:55</sys_updated_on>
+    </sys_hub_category>
+</record_update>
